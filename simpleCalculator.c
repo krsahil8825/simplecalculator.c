@@ -55,63 +55,63 @@ int main()
             // this switch case is use to call the function as per user requirements
             switch (choice)
             {
-                // taking input from user and and calling add function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
-                case 1:
-                {
-                    isfirstime = 0;
-                    printf("Enter First number: ");
-                    scanf("%f", &inputnum1);
-                    printf("Enter Second number: ");
-                    scanf("%f", &inputnum2);
-                    result=(inputnum1, inputnum2);
-                    break;
-                }
+            // taking input from user and and calling add function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
+            case 1:
+            {
+                isfirstime = 0;
+                printf("Enter First number: ");
+                scanf("%f", &inputnum1);
+                printf("Enter Second number: ");
+                scanf("%f", &inputnum2);
+                result = (inputnum1, inputnum2);
+                break;
+            }
 
-                // taking input from user and and calling subtract function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
-                case 2:
-                {
-                    isfirstime = 0;
-                    printf("Enter First number: ");
-                    scanf("%f", &inputnum1);
-                    printf("Enter Second number: ");
-                    scanf("%f", &inputnum2);
-                    result=subtractFunction(inputnum1, inputnum2);
-                    break;
-                }
+            // taking input from user and and calling subtract function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
+            case 2:
+            {
+                isfirstime = 0;
+                printf("Enter First number: ");
+                scanf("%f", &inputnum1);
+                printf("Enter Second number: ");
+                scanf("%f", &inputnum2);
+                result = subtractFunction(inputnum1, inputnum2);
+                break;
+            }
 
-                // taking input from user and and calling multiply function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
-                case 3:
-                {
-                    isfirstime = 0;
-                    printf("Enter First number: ");
-                    scanf("%f", &inputnum1);
-                    printf("Enter Second number: ");
-                    scanf("%f", &inputnum2);
-                    result=multiplicationFunction(inputnum1, inputnum2);
-                    break;
-                }
+            // taking input from user and and calling multiply function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
+            case 3:
+            {
+                isfirstime = 0;
+                printf("Enter First number: ");
+                scanf("%f", &inputnum1);
+                printf("Enter Second number: ");
+                scanf("%f", &inputnum2);
+                result = multiplicationFunction(inputnum1, inputnum2);
+                break;
+            }
 
-                // taking input from user and and calling divide function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
-                case 4:
-                {
-                    isfirstime = 0;
-                    printf("Enter First number: ");
-                    scanf("%f", &inputnum1);
-                    printf("Enter Second number: ");
-                    scanf("%f", &inputnum2);
-                    result=divisionFunction(inputnum1, inputnum2);
-                    break;
-                }
+            // taking input from user and and calling divide function and set the value of "isfirsttime" = 0 because now not need of 2 user inputs
+            case 4:
+            {
+                isfirstime = 0;
+                printf("Enter First number: ");
+                scanf("%f", &inputnum1);
+                printf("Enter Second number: ");
+                scanf("%f", &inputnum2);
+                result = divisionFunction(inputnum1, inputnum2);
+                break;
+            }
 
-                // taking input again because of invalid input
-                default:
-                {
-                    isfirstime = 1;
-                    printf("Invalid option!\a\nEnter a valid option\n\n");
-                    menu();
-                    scanf("%d", &choice);
-                    continue;
-                }
+            // taking input again because of invalid input
+            default:
+            {
+                isfirstime = 1;
+                printf("Invalid option!\a\nEnter a valid option\n\n");
+                menu();
+                scanf("%d", &choice);
+                continue;
+            }
             }
         }
 
@@ -121,50 +121,50 @@ int main()
         {
             switch (choice)
             {
-                // taking input from user and and calling add function
-                case 1:
-                {
-                    printf("Enter a number: ");
-                    scanf("%f", &inputnum1);
-                    result=addFunction(result, inputnum1);
-                    break;
-                }
+            // taking input from user and and calling add function
+            case 1:
+            {
+                printf("Enter a number: ");
+                scanf("%f", &inputnum1);
+                result = addFunction(result, inputnum1);
+                break;
+            }
 
-                // taking input from user and and calling subtract function
-                case 2:
-                {
-                    printf("Enter a number: ");
-                    scanf("%f", &inputnum1);
-                    result=subtractFunction(result, inputnum1);
-                    break;
-                }
+            // taking input from user and and calling subtract function
+            case 2:
+            {
+                printf("Enter a number: ");
+                scanf("%f", &inputnum1);
+                result = subtractFunction(result, inputnum1);
+                break;
+            }
 
-                // taking input from user and and calling multiply function
-                case 3:
-                {
-                    printf("Enter a number: ");
-                    scanf("%f", &inputnum1);
-                    result=multiplicationFunction(result, inputnum1);
-                    break;
-                }
+            // taking input from user and and calling multiply function
+            case 3:
+            {
+                printf("Enter a number: ");
+                scanf("%f", &inputnum1);
+                result = multiplicationFunction(result, inputnum1);
+                break;
+            }
 
-                // taking input from user and and calling divide function
-                case 4:
-                {
-                    printf("Enter a number: ");
-                    scanf("%f", &inputnum1);
-                    result=divisionFunction(result, inputnum1);
-                    break;
-                }
+            // taking input from user and and calling divide function
+            case 4:
+            {
+                printf("Enter a number: ");
+                scanf("%f", &inputnum1);
+                result = divisionFunction(result, inputnum1);
+                break;
+            }
 
-                // taking input again because of invalid input
-                default:
-                {
-                    printf("Invalid option!\a\nEnter a valid option\n");
-                    menusecond();
-                    scanf("%d", &choice);
-                    continue;
-                }
+            // taking input again because of invalid input
+            default:
+            {
+                printf("Invalid option!\a\nEnter a valid option\n");
+                menusecond();
+                scanf("%d", &choice);
+                continue;
+            }
             }
         }
 
@@ -175,17 +175,17 @@ int main()
         menusecond();
         scanf("%d", &choice);
     }
-    
-    // this print result according to condition
+
+    // this print result according to condition "calculationperformed"
     if (calculationperformed == 1)
     {
         printf("Result = %f\n", result);
     }
-    else 
+    else
     {
         printf("You didn't perfomed any Calculation yet! so, Result = NULL\n");
     }
-    
+
     return 0;
 }
 
@@ -215,25 +215,25 @@ void menusecond()
 }
 
 // add function body/definition. This function add the given numbers.
-int addFunction(int functionNum1 , int functionNum2)
+int addFunction(int functionNum1, int functionNum2)
 {
     return functionNum1 + functionNum2; // return result
 }
 
 // subtract function body/definition. This function subtract the given numbers.
-int subtractFunction(int functionNum1 , int functionNum2)
+int subtractFunction(int functionNum1, int functionNum2)
 {
     return functionNum1 - functionNum2; // return result
 }
 
 // multiplication function body/definition. This function multiply the given numbers.
-int multiplicationFunction(int functionNum1 , int functionNum2)
+int multiplicationFunction(int functionNum1, int functionNum2)
 {
     return functionNum1 * functionNum2; // return result
 }
 
 // division function body/definition. This function divide the given numbers.
-int divisionFunction(int functionNum1 , int functionNum2)
+int divisionFunction(int functionNum1, int functionNum2)
 {
     return functionNum1 / functionNum2; // return result
 }
