@@ -124,7 +124,7 @@ int main()
                 // taking input from user and and calling add function
                 case 1:
                 {
-                    printf("Enter First number: ");
+                    printf("Enter a number: ");
                     scanf("%f", &inputnum1);
                     result=addFunction(result, inputnum1);
                     break;
@@ -133,7 +133,7 @@ int main()
                 // taking input from user and and calling subtract function
                 case 2:
                 {
-                    printf("Enter First number: ");
+                    printf("Enter a number: ");
                     scanf("%f", &inputnum1);
                     result=subtractFunction(result, inputnum1);
                     break;
@@ -142,7 +142,7 @@ int main()
                 // taking input from user and and calling multiply function
                 case 3:
                 {
-                    printf("Enter First number: ");
+                    printf("Enter a number: ");
                     scanf("%f", &inputnum1);
                     result=multiplicationFunction(result, inputnum1);
                     break;
@@ -151,7 +151,7 @@ int main()
                 // taking input from user and and calling divide function
                 case 4:
                 {
-                    printf("Enter First number: ");
+                    printf("Enter a number: ");
                     scanf("%f", &inputnum1);
                     result=divisionFunction(result, inputnum1);
                     break;
@@ -172,7 +172,7 @@ int main()
         calculationperformed = 1;
 
         // asking input again
-        menu3();
+        menusecond();
         scanf("%d", &choice);
     }
     
@@ -183,7 +183,7 @@ int main()
     }
     else 
     {
-        printf("You didn't perfomed any Calculation yet! so Result = NULL\n");
+        printf("You didn't perfomed any Calculation yet! so, Result = NULL\n");
     }
     
     return 0;
@@ -198,7 +198,7 @@ void menu()
     printf("3. Multiplication.\n");
     printf("4. Division.\n");
     printf("5. Exit and show result.\n\n");
-    printf("Please select an option (1-6): ");
+    printf("Please select an option: ");
 }
 
 // menusecond function body/definition. This function display second menu.
@@ -211,7 +211,7 @@ void menusecond()
     printf("3. Multiplication.\n");
     printf("4. Division.\n");
     printf("5. Exit and show result\n\n");
-    printf("Please select an option (1-6): ");
+    printf("Please select an option: ");
 }
 
 // add function body/definition. This function add the given numbers.
