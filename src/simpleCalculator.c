@@ -35,7 +35,7 @@ int main()
     float result;
 
     // user greeting and instruction
-    printf("\n***** Welcome To SimpleCalculator.c *****\n\n");
+    printf("\n\a***** Welcome To SimpleCalculator.c *****\n\n");
     printf("This Calculator not follows the rule of BODMAS\n");
     printf("\n----User Instruction----\n");
     printf("1. Press '1' for addition\n2. Press '2' for subtraction\n3. Press '3' for multiplication\n");
@@ -124,7 +124,10 @@ int main()
     printf("Result = %.2f\n\n", result);
 
     // credit and src
-    printf("Created By Kumar Sahil.\nGitHub- https://github.com/krsahil8825/SimpleCalculator.c\n");
+    printf("Created By Kumar Sahil.\nGitHub- https://github.com/krsahil8825/SimpleCalculator.c\n\a");
+
+    printf ("Press any character to Close the program completly.\n");
+    scanf("%d", &option);
 
     return 0;
 }
