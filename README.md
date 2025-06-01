@@ -87,6 +87,7 @@ Current Result = 15.00
 Result = 35.00
 Created By Kumar Sahil.
 GitHub - https://github.com/krsahil8825/SimpleCalculator.c
+CopyRight (c) 2025 Kumar Sahil | All Rights Reserved.
 ```
 
 ---
